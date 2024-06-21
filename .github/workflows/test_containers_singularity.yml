@@ -31,7 +31,7 @@ jobs:
           python -m pip install -U pip  # Official recommended way
           pip install pytest
           pip install -e .[full]
-          pip install spython
+          pip install spython docker
       - name: Run test singularity containers
         run: |
           pytest -vv --capture=tee-sys -rA src/spikeinterface/sorters/external/tests/test_singularity_containers.py

@@ -37,7 +37,7 @@ jobs:
           python -m pip install -U pip  # Official recommended way
           pip install pytest
           pip install -e .[full]
-          pip install spython
+          pip install spython docker
 
       - uses: eWaterCycle/setup-singularity@v7
         with:

@@ -399,7 +399,7 @@ The :py:func:`~spikeinterface.comparison.compare_two_sorters()` returns the comp
     import spikeinterface.extractors as se
     import spikeinterface.sorters as ss
     import spikeinterface.comparisons as sc
-    import spikinterface.widgets as sw
+    import spikeinterface.widgets as sw
 
     # First, let's download a simulated dataset
     local_path = si.download_dataset(remote_path='mearec/mearec_test_10s.h5')
